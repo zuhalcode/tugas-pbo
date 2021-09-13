@@ -1,0 +1,178 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto Mono", monospace;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  font-weight: 600;
+}
+
+body {
+  background-color: greenyellow;
+}
+
+.next h1 {
+  opacity: 0.6;
+  transition: 0.2s;
+  width: 100px;
+  margin: 10px;
+}
+.next h1 a {
+  padding: 5px;
+  background-color: gray;
+  color: white;
+}
+.next h1:hover {
+  opacity: 1;
+  transform: perspective(100px) translateZ(20px);
+}
+
+form {
+  width: 100%;
+  height: 100%;
+  margin: 50px auto;
+  border-radius: 10px;
+  background-color: black;
+}
+
+form .content {
+  display: flex;
+}
+form .content .container-1 {
+  width: 50%;
+  background-color: red;
+}
+form .content .button {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+}
+form .content .button:hover input[type="number"] {
+  width: 110px;
+}
+form .content .button input[type="number"] {
+  width: 80px;
+  font-size: 1.6em;
+  text-align: center;
+  outline: none;
+  transition: 0.5s;
+  border: none;
+}
+form .content .button input[type="number"]::-webkit-inner-spin-button,
+form .content .button input[type="number"]::-webkit-outer-spin-button {
+  appearance: none;
+  margin: 0;
+}
+form .content .button div {
+  color: #00f7ff;
+  background-color: white;
+  font-size: 3em;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+form .content .button div.btn-1 {
+  width: 50px;
+  padding: 20px 10px 15px 20px;
+  border-radius: 60px 0 0 60px;
+}
+form .content .button div.btn-2 {
+  width: 50px;
+  padding: 18px 15px 15px 5px;
+  border-radius: 0 60px 60px 0;
+}
+form .content .submit #submit {
+  width: 200px;
+  font-size: 2em;
+  border: none;
+  outline: none;
+  background-color: white;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #fff;
+  background-color: #26a8ff;
+  text-shadow: 2px -2px #2980b9;
+  border-bottom: 5px solid #2980b9;
+  transition: all 0.01s;
+}
+form .content .submit #submit:active {
+  transform: translate(0px, 5px);
+  border-bottom: 0px solid #2980b9;
+}
+form .content .container-2 {
+  background-color: rebeccapurple;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+form .content .container-2 ul li {
+  margin: 20px;
+}
+form .content .container-2 ul li label {
+  font-size: 2em;
+  margin: 25px 20px 10px 0;
+  color: yellow;
+}
+
+.form-2 {
+  width: 800px;
+  border-radius: 0 0 10px 10px;
+}
+
+.form-2 h1 {
+  color: white;
+}
+.form-2 .container-novel {
+  background: linear-gradient(180deg, aqua, #17f117);
+  display: flex;
+  border-radius: 0 0 10px 10px;
+}
+.form-2 .container-novel .content-1 {
+  background-color: aqua;
+  width: 50%;
+  border-radius: 0 0 50px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form-2 .container-novel .content-1 ul li {
+  margin: 20px;
+}
+.form-2 .container-novel .content-1 ul li input {
+  padding: 20px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+}
+.form-2 .container-novel .content-1 ul li button {
+  width: 10em;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  background-color: #747571;
+  color: white;
+  box-shadow: 1px 1px 9px #5e5e5e;
+  opacity: 0.8;
+}
+.form-2 .container-novel .content-1 ul li button:hover {
+  transform: translateY(-1px);
+  opacity: 1;
+}
+.form-2 .container-novel .content-1 ul li button:active {
+  transform: translateY(3px);
+  box-shadow: none;
+}
+.form-2 .container-novel .content-2 {
+  background-color: #17f117;
+  width: 50%;
+  border-radius: 50px 0 10px 0;
+}
+
+/*# sourceMappingURL=style.css.map */
